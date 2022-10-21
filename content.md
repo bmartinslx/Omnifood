@@ -35,37 +35,37 @@ Approve your weekly meal plan: Once per week, approve the meal plan generated fo
 
 Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!✅
 
-### Omnifood works with any diet
+### Omnifood works with any diet✅
 
-Vegetarian
-Vegan
-Pescatarian
-Gluten-free
-Lactose-free
-Keto
-Paleo
-Low FODMAP
-Kid-friendly
+Vegetarian✅
+Vegan✅
+Pescatarian✅
+Gluten-free✅
+Lactose-free✅
+Keto✅
+Paleo✅
+Low FODMAP✅
+Kid-friendly✅
 
 ### Sample meals
 
-**Omnifood AI chooses from 5,000+ recipes**
+**Omnifood AI chooses from 5,000+ recipes**✅
 
-Meal 1: Japanese Gyozas
+Meal 1: Japanese Gyozas✅
 
--  Category: Vegetarian
--  Calories: 650
--  NutriScore (Registered): 74
--  Average rating: 4.9
--  Number reviews: 537
+-  Category: Vegetarian✅
+-  Calories: 650✅
+-  NutriScore (Registered): 74✅
+-  Average rating: 4.9✅
+-  Number reviews: 537✅
 
-Meal 2: Avocado Salad
+Meal 2: Avocado Salad✅
 
--  Category: Vegan and Paleo
--  Calories: 400
--  NutriScore (Registered): 92
--  Average rating: 4.8
--  Number reviews: 441
+-  Category: Vegan and Paleo✅
+-  Calories: 400✅
+-  NutriScore (Registered): 92✅
+-  Average rating: 4.8✅
+-  Number reviews: 441✅
 
 ### We offer a free sample meal
 
