@@ -18,10 +18,10 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 ### Omnifood features
 
-Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.
-Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.
-No waste: All our partners only use reusable containers to package all your meals.
-Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
+Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.✅
+Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.✅
+No waste: All our partners only use reusable containers to package all your meals.✅
+Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.✅
 
 ### How Omnifood works
 
@@ -67,28 +67,28 @@ Meal 2: Avocado Salad✅
 -  Average rating: 4.8✅
 -  Number reviews: 441✅
 
-### We offer a free sample meal
+### We offer a free sample meal✅
 
 [Create simple form for users to sign up]
 
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!✅
 
-### We have 2 pricing plans
+### We have 2 pricing plans✅
 
-Prices include all applicable taxes. Users can cancel at any time.
+Prices include all applicable taxes. Users can cancel at any time.✅
 
-Starter: $399 per month
+Starter: $399 per month✅
 
--  1 meal per day
--  Order times are between 11am and 9pm
--  Delivery is free
+-  1 meal per day✅
+-  Order times are between 11am and 9pm✅
+-  Delivery is free✅
 
-Complete: $649 per month
+Complete: $649 per month✅
 
--  2 meal2 per day
--  Order 24/7
--  Delivery is free
--  Get access to latest recipes
+-  2 meal2 per day✅
+-  Order 24/7✅
+-  Delivery is free✅
+-  Get access to latest recipes✅
 
 ### Photo gallery
 
@@ -98,18 +98,18 @@ Complete: $649 per month
 
 [Photos of customers included]
 
-Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
-The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
-Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
+Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)✅
+The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)✅
+Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)✅
+I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)✅
 
-### Section with logos of featured publications [see images]
+### Section with logos of featured publications [see images]✅
 
-### Contact information
+### Contact information✅
 
-Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
-Phone: 415-201-6370
-Email: hello@omnifood.com
+Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107✅
+Phone: 415-201-6370.✅
+Email: hello@omnifood.com ✅
 
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 
@@ -119,10 +119,12 @@ Create account
 Sign in
 iOS app
 Android app
+
 About Omnifood
 For Business
 Cooking partners
 Careers
+
 Recipe directory
 Help center
 Privacy & terms

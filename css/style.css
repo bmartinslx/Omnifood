@@ -280,22 +280,317 @@
    font-size: 1.8rem;
 }
 
-.list {
+/*******************************/
+/*   TESTIMONIALS SECTION      */
+/*******************************/
+.section-testimonials {
+   background-color: #fdf2e9;
+   display: grid;
+   grid-template-columns: 55fr 45fr;
+}
+.testimonials-container {
+   padding: 9.6rem;
+}
+
+.testimonials {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 4.8rem;
+   column-gap: 8rem;
+}
+
+.testimonial-img {
+   width: 6.4rem;
+   border-radius: 50%;
+   margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+   font-size: 1.8rem;
+   line-height: 1.8;
+   margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+   font-size: 1.6rem;
+   color: #6f6f6f;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.6rem;
+   padding: 1.6rem;
+   transition: all 0.4s;
+}
+
+.gallery-item {
+   overflow: hidden;
+}
+
+.gallery-item img {
+   display: block;
+   width: 100%;
+}
+
+.gallery-item img:hover {
+   transform: scale(1.1);
+}
+
+/*******************************/
+/*      PRICING SECTION        */
+/*******************************/
+.section-pricing {
+   padding: 9.6rem 0;
+}
+.pricing-plan {
+   border-radius: 11px;
+
+   width: 75%;
+}
+.pricing-plan--starter {
+   justify-self: end;
+   border: 2px solid #fdf2e9;
+   padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+   background-color: #fdf2e9;
+   padding: 4.8rem;
+   position: relative;
+   overflow: hidden;
+}
+.pricing-plan--complete::after {
+   content: "Best Value";
+   position: absolute;
+   top: 6%;
+   right: -18%;
+   text-transform: uppercase;
+   font-size: 1.4rem;
+   font-weight: 700;
+   color: #333;
+   background-color: #ffd43b;
+   padding: 0.8rem 8rem;
+   transform: rotate(45deg);
+}
+
+.plan-header {
+   text-align: center;
+   margin-bottom: 4.8rem;
+}
+
+.plan-name {
+   color: #cf711f;
+   font-weight: 600;
+   font-size: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 0.75;
+   margin-bottom: 3.2rem;
+}
+
+.plan-price {
+   font-size: 6.2rem;
+   font-weight: 600;
+   columns: #333;
+   margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+   font-size: 3rem;
+   font-weight: 500;
+   margin-right: 0.8rem;
+}
+.plan-text {
+   font-size: 1.8rem;
+   line-height: 1.6;
+   color: #6f6f6f;
+}
+
+.plan-sign-up {
+   margin-top: 4.8rem;
+   text-align: center;
+}
+.plan-details {
+   font-size: 1.6rem;
+   line-height: 1.6;
+   text-align: center;
+}
+
+.feature-icon {
+   color: #e67e22;
+   height: 3.2rem;
+   width: 3.2rem;
+   background-color: #fdf2e9;
+   margin-bottom: 3.2rem;
+   padding: 1.6rem;
+   border-radius: 50%;
+}
+
+.feature-title {
+   font-size: 2.4rem;
+   color: #333;
+   font-weight: 700;
+   margin-bottom: 1.6rem;
+}
+
+.feature-text {
+   font-size: 1.8rem;
+   line-height: 1.8;
+}
+
+/*******************************/
+/*         CTA SECTION         */
+/*******************************/
+.section-cta {
+   /* Top - right - bottom - left */
+   /* padding: 9.6rem 0 12.8rem 0; */
+
+   /* Top - horizontal - left */
+   padding: 4.8rem 0 12.8rem;
+}
+.cta {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   /* background-color: #e67e22; */
+   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+   border-radius: 11px;
+   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+
+   overflow: hidden;
+}
+
+.cta-text-box {
+   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+   color: #45260a;
+}
+
+.cta .heading-secondary {
+   color: #45260a;
+   margin-bottom: 3.2rem;
+}
+
+.cta-text {
+   font-size: 1.8rem;
+   line-height: 1.8;
+   margin-bottom: 4.8rem;
+}
+.cta-img-box {
+   background-image: linear-gradient(
+         to right bottom,
+         rgba(235, 151, 78, 0.35),
+         rgba(230, 125, 34, 0.35)
+      ),
+      url("../img/eating.jpg");
+   background-size: cover;
+   background-position: center;
+}
+
+.cta-form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 3.2rem;
+   row-gap: 2.4rem;
+}
+
+.cta-form label {
+   display: block;
+   font-size: 1.6rem;
+   font-weight: 500;
+   margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+   width: 100%;
+   padding: 1.2rem;
+   font-size: 1.8rem;
+   font-family: inherit;
+   color: inherit;
+   border: none;
+   background-color: #fdf2e9;
+   border-radius: 9px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+   color: #aaa;
+}
+.cta *:focus {
+   outline: none;
+   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/*******************************/
+/*      FOOTER SECTION         */
+/*******************************/
+.footer {
+   padding: 12.8rem 0;
+   border-top: 1px solid #eee;
+}
+
+.grid--footer {
+   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-logo {
+   display: block;
+   margin-bottom: 3.2rem;
+}
+
+.social-links {
+   list-style: none;
+   display: flex;
+   gap: 2.4rem;
+}
+
+.social-icon {
+   height: 2.4rem;
+   width: 2.4rem;
+   color: #767676;
+}
+
+.copyright {
+   font-size: 1.4rem;
+   line-height: 1.6;
+   color: #767676;
+   margin-top: auto;
+}
+
+.footer-heading {
+   font-size: 1.8rem;
+   font-weight: 500;
+   margin-bottom: 4rem;
+}
+
+.contacts {
+   font-style: normal;
+   font-size: 1.4rem;
+   line-height: 1.6;
+}
+
+.address {
+   margin-bottom: 2.4rem;
+}
+.footer-nav {
    list-style: none;
    display: flex;
    flex-direction: column;
-   gap: 1.6rem;
+   gap: 2.4rem;
 }
 
-.list-item {
-   font-size: 1.8rem;
-   display: flex;
-   align-items: center;
-   gap: 1.6rem;
+.footer-link:link,
+.footer-link:visited {
+   text-decoration: none;
+   font-size: 1.6rem;
+   color: #767676;
+   transition: all 0.3s;
 }
 
-.list-icon {
-   width: 3rem;
-   height: 3rem;
-   color: #e67e22;
+.footer-link:hover,
+.footer-link:active {
+   color: #555;
 }
