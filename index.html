@@ -15,11 +15,18 @@
       <link rel="stylesheet" href="css/queries.css" />
       <!-- <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
       <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script
+         defer
+         src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+      ></script>
+
+      <script defer src="js/script.js"></script>
+
       <!-- Title -->
       <title>Omnifood</title>
    </head>
    <body>
-      <header class="header nav-open">
+      <header class="header">
          <a href="#">
             <img src="img/omnifood-logo.png" class="logo" alt="Omnifood logo" />
          </a>
@@ -27,9 +34,7 @@
          <nav class="main-nav">
             <ul class="main-nav-list">
                <li>
-                  <a href="#how-it-works-section" class="main-nav-link"
-                     >Hot it works</a
-                  >
+                  <a href="#how-section" class="main-nav-link">Hot it works</a>
                </li>
                <li><a href="#section-meals" class="main-nav-link">Meals</a></li>
                <li>
@@ -67,10 +72,14 @@
                      make you eat healthy again. Tailored to your personal
                      tastes and nutritional needs.
                   </p>
-                  <a href="#" class="btn btn--full margin-right-sm"
+                  <a
+                     href="#section-try-free"
+                     class="btn btn--full margin-right-sm"
                      >Start eating well</a
                   >
-                  <a href="#" class="btn btn--outline">Learn more &darr; </a>
+                  <a href="#how-section" class="btn btn--outline"
+                     >Learn more &darr;
+                  </a>
                   <div class="delivered-meals">
                      <div class="delivered-imgs">
                         <img
@@ -134,7 +143,7 @@
          </section>
 
          <!-- FEATURES HOW IT WORKS SECTION -->
-         <section class="section-how">
+         <section class="section-how" id="how-section">
             <div class="container">
                <span id="how-it-works-section" class="subheading"
                   >How it works</span
@@ -594,7 +603,9 @@
                      </li>
                   </ul>
                   <div class="plan-sign-up">
-                     <a href="#" class="btn btn--full">Start eating well</a>
+                     <a href="#section-cta" class="btn btn--full"
+                        >Start eating well</a
+                     >
                   </div>
                </div>
                <!-- ------------------------------------------  -->
@@ -812,7 +823,8 @@
                </ul>
 
                <p class="copyright">
-                  Copyright &copy; 2022 by Omnifood, Inc. All rights reserved.
+                  Copyright &copy; <span class="year">2022</span> by Omnifood,
+                  Inc. All rights reserved.
                </p>
             </div>
             <div class="address-col">
