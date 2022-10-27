@@ -152,7 +152,9 @@ em = Current font size
    }
 
    .main-nav {
-      background-color: rgba(255, 255, 255, 0.959);
+      background-color: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(5px);
       position: absolute;
       top: 0;
       left: 0;
@@ -252,11 +254,11 @@ em = Current font size
    }
 }
 
-/*          .:: BEAK POINT ::.
+/*         
 |******************************************|
 |                                          |
-|       BELOW 550px (Phones)               |
-|  550/16px = 34em or 34*16px = 550px      |
+|            Fixing Safari                 |
+|             flexbox gap                  |
 |                                          |
 *******************************************|
 */
@@ -324,5 +326,54 @@ em = Current font size
    .cta-img-box {
       height: 32rem;
       grid-row: 1;
+   }
+}
+
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+   margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+   margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+   margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .delivered-faces {
+   margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .meal-attribute:not(:last-child) {
+   margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .meal-icon {
+   margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+   margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+   margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+   margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+   .no-flexbox-gap .main-nav-list li:not(:last-child) {
+      margin-right: 3.2rem;
+   }
+}
+
+@media (max-width: 59em) {
+   .no-flexbox-gap .main-nav-list li:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 4.8rem;
    }
 }
